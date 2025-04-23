@@ -1,0 +1,73 @@
+Short Hand If Else / "Ternary operators"💫
+
+[1]   number is less than 10
+
+[2]  >>> 10
+
+*Enumerated 💻...
+
+[3] tehreem
+
+['farhana', 'tehreem', 'governor house', 'AI']
+
+[4] names = ["tehreem","Farhana", "govern"]
+
+# #1:Correct variable name & fix syntax
+
+# Correctly implemented loop with index
+
+for index, name in enumerate(names):
+    print(f"name[{index}]: {name}")
+
+ ##3: Proper f-string formatting
+name[0]: tehreem
+name[1]: Farhana
+name[2]: govern
+*Map,filter Reduce Function
+
+[5] numbers=[1,2,3,4,5]
+
+def square(num:int):
+  return num*num
+#ab me chah rha ho ke ye function jae or list ke  he element ko print krwae
+new_list =[]
+for num in numbers:
+  numbers=[1,2,3,4,5]
+
+def square(num:int):
+  return num*num
+#ab me chah rha ho ke ye function jae or list ke  he element ko print krwae
+new_list =[]
+for num in numbers:
+  print ("num>>>",num)
+  print ("calling square function")
+  num_sqr=square(num)
+  print("num_sqr>>>", num_sqr)
+num>>> 1
+calling square function
+num_sqr>>> 1
+num>>> 2
+calling square function
+num_sqr>>> 4
+num>>> 3
+calling square function
+num_sqr>>> 9
+num>>> 4
+calling square function
+num_sqr>>> 16
+num>>> 5
+calling square function
+num_sqr>>> 25
+Ye Aam Zindagi thi. Or ab hm...🌟
+Mintor Zindagi ke ley "Map" k0 usekre ge💥
+
+[6]   ## Map
+numbers = [1,2,3,4,5]
+
+def square(num:int):
+     return num *num
+new_list=list(map(square,numbers))
+print("new_list",new_list)
+new_list [1, 4, 9, 16, 25]
+Colab paid products - Cancel contracts here
+ 
